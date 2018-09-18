@@ -1,0 +1,41 @@
+@font-face {
+  src: url("../fonts/bpg_gel_excelsior_caps.woff") format("woff");
+  font-family: "geo-caps";
+}
+
+@font-face {
+  src: url("../fonts/bpg_gel_excelsior.woff") format("woff");
+  font-family: "geo-text";
+}
+
+@font-face {
+  src: url("../fonts/dejavu-kids.woff") format("woff");
+  font-family: "dejavu";
+}
+
+body {
+  font: 17px/1.5 sans-serif;
+  color: #303030;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #323265;
+  /* color: inherit; */
+}
+
+.geo-text {
+  font-family: "geo-text";
+}
+
+.geo-caps {
+  font-family: "geo-caps";
+}
+
+.dejavu {
+  font-family: "dejavu";
+}
