@@ -4,6 +4,8 @@ import Helmet from "react-helmet";
 
 import Layout from "../components/layout";
 
+require("prismjs/themes/prism-solarizedlight.css");
+
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (

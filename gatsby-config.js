@@ -20,6 +20,7 @@ module.exports = {
               maxWidth: 620
             }
           },
+          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`
         ]
       }

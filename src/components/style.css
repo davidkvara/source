@@ -14,7 +14,7 @@
 }
 
 body {
-  font: 17px/1.5 sans-serif;
+  font: 16px/1.5 sans-serif;
   color: #303030;
 }
 
@@ -38,4 +38,105 @@ a {
 
 .dejavu {
   font-family: "dejavu";
+}
+
+/* blog */
+
+.blog {
+  /* max-width: 760px;
+  margin: 0 auto; */
+  padding: 0.5rem 0 2rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-family: "excelsior";
+  color: #343434;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "excelsior_caps";
+  padding-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  color: #222222;
+}
+
+.blog p {
+  margin: 0 0 1rem;
+}
+
+.blog h2,
+.blog h3 {
+  padding: 1.5rem 0 1.1rem;
+  font-family: "excelsior_caps";
+  font-size: 22px;
+  font-weight: 500;
+  color: #222222;
+  line-height: 1.4;
+}
+
+.blog a {
+  color: #1e90ff;
+  border-bottom: 1px dotted #666;
+  text-decoration: none;
+}
+
+.blog a:hover,
+.blog a:focus {
+  background: #fff0d5;
+}
+
+.blog a:visited {
+  background: #fff0d5;
+  color: #0d62b6;
+}
+
+.blog blockquote {
+  padding: 1rem 0.5rem 0.4rem 2rem;
+  background: #f4f4f4;
+  color: #0b4885;
+  font-style: oblique;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  opacity: 0.75;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 500px) {
+  .blog .title,
+  .blog h2,
+  .blog h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* prism */
+
+.gatsby-highlight-code-line {
+  background-color: rgba(244, 241, 231, 0.8);
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #7f837e;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #fafafa !important;
+  border: 1px solid #eaeaea;
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  background: #cbeafb !important;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  background: #cbeafb !important;
 }
