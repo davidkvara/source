@@ -1,14 +1,14 @@
 import React from "react";
 import Helmet from "react-helmet";
+import "../style.css"; // move to header maybe
 
 import Header from "./header";
-import "./style.css";
 
-const Layout = ({ children }) => (
+const Layout = props => (
   <>
     <Helmet
-      title={"დათოს ბლოგი"}
-      meta={[{ name: "description", content: "Sample" }]}
+      title={"david kvaratskhelia"}
+      meta={[{ name: "description", content: "list of people" }]}
     >
       <link
         rel="stylesheet"
@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
       <html lang="ka" />
     </Helmet>
     <Header />
-    <div className="mw7 pa3 center">{children}</div>
+    <main className="main">{props.children}</main>
   </>
 );
 

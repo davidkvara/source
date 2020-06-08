@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "დათოს ბლოგი"
+    title: "დათოს ბლოგი",
+    author: "დავით კვარაცხელია",
+    description: "ჩემი შთაბეჭდილებები სიტყვებით და კოდით"
   },
   plugins: [
     {
@@ -26,7 +28,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`
   ]
 };

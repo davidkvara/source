@@ -13,13 +13,15 @@ export default ({ data }) => {
       <Helmet>
         <title>{post.frontmatter.title}</title>
       </Helmet>
-      <div>
-        <h2 className="geo-caps">{post.frontmatter.title}</h2>
-        <div
-          className="geo-text"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </div>
+
+      <h1 className="dejavu blog-title" style={{ color: `indianred` }}>
+        {post.frontmatter.title}
+      </h1>
+      <div
+        className="dejavu"
+        style={{ lineHeight: `1.9`, marginBottom: "5rem" }}
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
     </Layout>
   );
 };

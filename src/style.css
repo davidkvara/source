@@ -1,15 +1,15 @@
 @font-face {
-  src: url("../fonts/bpg_gel_excelsior_caps.woff") format("woff");
+  src: url("./assets/fonts/bpg_gel_excelsior_caps.woff") format("woff");
   font-family: "geo-caps";
 }
 
 @font-face {
-  src: url("../fonts/bpg_gel_excelsior.woff") format("woff");
+  src: url("./assets/fonts/bpg_gel_excelsior.woff") format("woff");
   font-family: "geo-text";
 }
 
 @font-face {
-  src: url("../fonts/dejavu-kids.woff") format("woff");
+  src: url("./assets/fonts/dejavu-kids.woff") format("woff");
   font-family: "dejavu";
 }
 
@@ -20,6 +20,7 @@ body {
 
 img {
   max-width: 100%;
+  display: inline-block;
 }
 
 a {
@@ -40,29 +41,21 @@ a {
   font-family: "dejavu";
 }
 
-/* blog */
-
-.blog {
-  /* max-width: 760px;
-  margin: 0 auto; */
-  padding: 0.5rem 0 2rem;
-  font-size: 0.95rem;
-  line-height: 1.7;
-  font-family: "excelsior";
-  color: #343434;
+.main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.title {
-  font-size: 24px;
-  font-family: "excelsior_caps";
-  padding-top: 2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 800;
-  color: #222222;
+/* blog */
+
+.blog-title {
+  margin: 0;
 }
 
 .blog p {
   margin: 0 0 1rem;
+  font-size: 0.975rem;
 }
 
 .blog h2,
