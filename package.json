@@ -8,7 +8,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "gatsby": "^2.23.1",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-react-helmet": "^3.3.3",
     "gatsby-plugin-sharp": "^2.6.10",
     "gatsby-remark-copy-linked-files": "^2.3.4",
